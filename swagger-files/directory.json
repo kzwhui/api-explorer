@@ -55,6 +55,14 @@
       }
     }
   },
+  "empty-params.json": {
+    "preferred": "0.0.1",
+    "versions": {
+      "0.0.1": {
+        "swaggerUrl": "swagger-files/empty-params.json"
+      }
+    }
+  },
   "endpoint-error-boundary.json": {
     "preferred": "1.0.0",
     "versions": {
