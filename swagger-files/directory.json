@@ -1,9 +1,9 @@
 {
-  "__cashManagement.json": {
-    "preferred": "1.0.0",
+  "__gathercontent.json": {
+    "preferred": "2.0.0",
     "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/__cashManagement.json"
+      "2.0.0": {
+        "swaggerUrl": "swagger-files/__gathercontent.json"
       }
     }
   },
