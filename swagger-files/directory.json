@@ -1,25 +1,17 @@
 {
+  "__cashManagement.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/__cashManagement.json"
+      }
+    }
+  },
   "additional-properties.json": {
     "preferred": "1.0.0",
     "versions": {
       "1.0.0": {
         "swaggerUrl": "swagger-files/additional-properties.json"
-      }
-    }
-  },
-  "all-of.json": {
-    "preferred": "1.0.0",
-    "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/all-of.json"
-      }
-    }
-  },
-  "any-of.json": {
-    "preferred": "1.0.0",
-    "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/any-of.json"
       }
     }
   },
@@ -39,19 +31,19 @@
       }
     }
   },
-  "circular.json": {
-    "preferred": "1.0",
-    "versions": {
-      "1.0": {
-        "swaggerUrl": "swagger-files/circular.json"
-      }
-    }
-  },
   "common-parameters.json": {
     "preferred": "1.0.0",
     "versions": {
       "1.0.0": {
         "swaggerUrl": "swagger-files/common-parameters.json"
+      }
+    }
+  },
+  "cyclical-refs.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/cyclical-refs.json"
       }
     }
   },
@@ -111,14 +103,6 @@
       }
     }
   },
-  "one-of.json": {
-    "preferred": "1.0.0",
-    "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/one-of.json"
-      }
-    }
-  },
   "parameters-with-refs.json": {
     "preferred": "1.0.0",
     "versions": {
@@ -132,6 +116,14 @@
     "versions": {
       "1.0.0": {
         "swaggerUrl": "swagger-files/petstore.json"
+      }
+    }
+  },
+  "polymorphism.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/polymorphism.json"
       }
     }
   },
