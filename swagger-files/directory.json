@@ -1,4 +1,12 @@
 {
+  "__realequity.json": {
+    "preferred": "v1",
+    "versions": {
+      "v1": {
+        "swaggerUrl": "swagger-files/__realequity.json"
+      }
+    }
+  },
   "additional-properties.json": {
     "preferred": "1.0.0",
     "versions": {
