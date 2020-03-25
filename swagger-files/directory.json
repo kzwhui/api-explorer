@@ -1,9 +1,17 @@
 {
-  "__realequity.json": {
+  "__allof with issues.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/__allof with issues.json"
+      }
+    }
+  },
+  "__hikeup.json": {
     "preferred": "v1",
     "versions": {
       "v1": {
-        "swaggerUrl": "swagger-files/__realequity.json"
+        "swaggerUrl": "swagger-files/__hikeup.json"
       }
     }
   },
