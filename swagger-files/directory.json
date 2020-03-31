@@ -1,9 +1,9 @@
 {
-  "__allof with issues.json": {
-    "preferred": "1.0.0",
+  "___angryguy.json": {
+    "preferred": "2020.02.24",
     "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/__allof with issues.json"
+      "2020.02.24": {
+        "swaggerUrl": "swagger-files/___angryguy.json"
       }
     }
   },
