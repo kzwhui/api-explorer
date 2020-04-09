@@ -1,12 +1,4 @@
 {
-  "___angryguy.json": {
-    "preferred": "2020.02.24",
-    "versions": {
-      "2020.02.24": {
-        "swaggerUrl": "swagger-files/___angryguy.json"
-      }
-    }
-  },
   "additional-properties.json": {
     "preferred": "1.0.0",
     "versions": {
