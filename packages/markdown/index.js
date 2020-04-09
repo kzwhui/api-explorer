@@ -80,8 +80,9 @@ export function normalize(blocks) {
   blocks = blocks
     .replace(/\[block:/g, '\n\n[block:')
     .replace(/\[\/block\]/g, '[/block]\n')
+    .replace(/\\{\\{/g, '{{')
     .trim()
-    .replace(/^(#+)([\w\s\d]+\n\n)/gm, '$1 $2');
+    .replace(/^(#+)([\w\s\d\(\)]+\n\n)/gm, '$1 $2');
   return `${blocks}\n\n `;
 }
 
