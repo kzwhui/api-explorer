@@ -1,17 +1,9 @@
 {
-  "___spredfast.json": {
-    "preferred": "1.0.0",
+  "___activity.json": {
+    "preferred": "v1",
     "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/___spredfast.json"
-      }
-    }
-  },
-  "__flipdish.json": {
-    "preferred": "v1.0",
-    "versions": {
-      "v1.0": {
-        "swaggerUrl": "swagger-files/__flipdish.json"
+      "v1": {
+        "swaggerUrl": "swagger-files/___activity.json"
       }
     }
   },
