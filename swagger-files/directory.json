@@ -1,9 +1,9 @@
 {
-  "___activity.json": {
-    "preferred": "v1",
+  "___fleet.json": {
+    "preferred": "1.0.0-oas3",
     "versions": {
-      "v1": {
-        "swaggerUrl": "swagger-files/___activity.json"
+      "1.0.0-oas3": {
+        "swaggerUrl": "swagger-files/___fleet.json"
       }
     }
   },
