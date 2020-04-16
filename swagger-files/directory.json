@@ -1,9 +1,9 @@
 {
-  "___chatcamp.oas.json": {
-    "preferred": "2.0",
+  "___satispay.json": {
+    "preferred": "1.0.0",
     "versions": {
-      "2.0": {
-        "swaggerUrl": "swagger-files/___chatcamp.oas.json"
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/___satispay.json"
       }
     }
   },
