@@ -7,22 +7,6 @@
       }
     }
   },
-  "all-of.json": {
-    "preferred": "1.0.0",
-    "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/all-of.json"
-      }
-    }
-  },
-  "any-of.json": {
-    "preferred": "1.0.0",
-    "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/any-of.json"
-      }
-    }
-  },
   "auth-types.json": {
     "preferred": "1.0.0",
     "versions": {
@@ -39,19 +23,27 @@
       }
     }
   },
-  "circular.json": {
-    "preferred": "1.0",
-    "versions": {
-      "1.0": {
-        "swaggerUrl": "swagger-files/circular.json"
-      }
-    }
-  },
   "common-parameters.json": {
     "preferred": "1.0.0",
     "versions": {
       "1.0.0": {
         "swaggerUrl": "swagger-files/common-parameters.json"
+      }
+    }
+  },
+  "cyclical-refs.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/cyclical-refs.json"
+      }
+    }
+  },
+  "empty-params.json": {
+    "preferred": "0.0.1",
+    "versions": {
+      "0.0.1": {
+        "swaggerUrl": "swagger-files/empty-params.json"
       }
     }
   },
@@ -87,19 +79,19 @@
       }
     }
   },
+  "multiple-media-types.json": {
+    "preferred": "1.0",
+    "versions": {
+      "1.0": {
+        "swaggerUrl": "swagger-files/multiple-media-types.json"
+      }
+    }
+  },
   "multiple-securities.json": {
     "preferred": "1.0.0",
     "versions": {
       "1.0.0": {
         "swaggerUrl": "swagger-files/multiple-securities.json"
-      }
-    }
-  },
-  "one-of.json": {
-    "preferred": "1.0.0",
-    "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/one-of.json"
       }
     }
   },
@@ -116,6 +108,14 @@
     "versions": {
       "1.0.0": {
         "swaggerUrl": "swagger-files/petstore.json"
+      }
+    }
+  },
+  "polymorphism.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/polymorphism.json"
       }
     }
   },
