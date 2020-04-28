@@ -31,23 +31,6 @@
               }
             }
           },
-          "201": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "examples": {
-                  "user": {
-                    "value": {
-                      "user": {
-                        "email": "test@example.com",
-                        "name": "Test user name"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
           "202": {
             "description": "OK",
             "content": {
@@ -55,7 +38,8 @@
                 "examples": {
                   "cat" : {
                     "summary": "An example of a cat",
-                    "value": {
+                    "value":
+                    {
                       "name": "Fluffy",
                       "petType": "Cat",
                       "color": "White",
@@ -78,7 +62,17 @@
             }
           },
           "400": {
-            "$ref": "#/components/responses/400-Response-Ref"
+            "description": "Validation failed",
+            "content": {
+              "application/xml": {
+                "examples": {
+                  "response": {
+                    "value":
+                      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Don't forget me this weekend!</body></note>"
+                  }
+                }
+              }
+            }
           }
         },
         "summary": "Update Password"
@@ -87,21 +81,7 @@
   },
   "components": {
     "schemas": {},
-    "responses": {
-      "400-Response-Ref": {
-        "description": "Validation failed",
-        "content": {
-          "application/xml": {
-            "examples": {
-              "response": {
-                "value":
-                  "<?xml version=\"1.0\" encoding=\"UTF-8\"?><note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Don't forget me this weekend!</body></note>"
-              }
-            }
-          }
-        }
-      }
-    },
+    "responses": {},
     "parameters": {},
     "examples": {},
     "requestBodies": {},
