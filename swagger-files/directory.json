@@ -1,9 +1,9 @@
 {
-  "__clover.json": {
-    "preferred": "1.0.0",
+  "__msts.json": {
+    "preferred": "2.1.26",
     "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/__clover.json"
+      "2.1.26": {
+        "swaggerUrl": "swagger-files/__msts.json"
       }
     }
   },
