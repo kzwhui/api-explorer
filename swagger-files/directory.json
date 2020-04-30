@@ -1,12 +1,4 @@
 {
-  "__calixa.json": {
-    "preferred": "1.0",
-    "versions": {
-      "1.0": {
-        "swaggerUrl": "swagger-files/__calixa.json"
-      }
-    }
-  },
   "__clover.json": {
     "preferred": "1.0.0",
     "versions": {
