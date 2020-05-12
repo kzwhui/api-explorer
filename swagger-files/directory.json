@@ -1,4 +1,12 @@
 {
+  "__rapid7.json": {
+    "preferred": "",
+    "versions": {
+      "": {
+        "swaggerUrl": "swagger-files/__rapid7.json"
+      }
+    }
+  },
   "additional-properties.json": {
     "preferred": "1.0.0",
     "versions": {
