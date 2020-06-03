@@ -47,14 +47,6 @@
       }
     }
   },
-  "endpoint-error-boundary.json": {
-    "preferred": "1.0.0",
-    "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/endpoint-error-boundary.json"
-      }
-    }
-  },
   "examples.json": {
     "preferred": "1.0",
     "versions": {
