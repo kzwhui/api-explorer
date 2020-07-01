@@ -1,12 +1,4 @@
 {
-  "__wtf.json": {
-    "preferred": "1.0.0",
-    "versions": {
-      "1.0.0": {
-        "swaggerUrl": "swagger-files/__wtf.json"
-      }
-    }
-  },
   "additional-properties.json": {
     "preferred": "1.0.0",
     "versions": {
@@ -76,6 +68,14 @@
     "versions": {
       "1.0": {
         "swaggerUrl": "swagger-files/excerpt-markdown.json"
+      }
+    }
+  },
+  "formdata.json": {
+    "preferred": "0.0.0",
+    "versions": {
+      "0.0.0": {
+        "swaggerUrl": "swagger-files/formdata.json"
       }
     }
   },
