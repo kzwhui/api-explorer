@@ -1,9 +1,9 @@
 {
-  "___optionSwitching.json": {
-    "preferred": "1.0",
+  "___urlencodedbug.json": {
+    "preferred": "2.0",
     "versions": {
-      "1.0": {
-        "swaggerUrl": "swagger-files/___optionSwitching.json"
+      "2.0": {
+        "swaggerUrl": "swagger-files/___urlencodedbug.json"
       }
     }
   },
