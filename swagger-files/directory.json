@@ -1,9 +1,9 @@
 {
-  "___urlencodedbug.json": {
-    "preferred": "2.0",
+  "___wtf.json": {
+    "preferred": "4.3",
     "versions": {
-      "2.0": {
-        "swaggerUrl": "swagger-files/___urlencodedbug.json"
+      "4.3": {
+        "swaggerUrl": "swagger-files/___wtf.json"
       }
     }
   },
