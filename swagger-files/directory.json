@@ -1,12 +1,4 @@
 {
-  "___wtf.json": {
-    "preferred": "4.3",
-    "versions": {
-      "4.3": {
-        "swaggerUrl": "swagger-files/___wtf.json"
-      }
-    }
-  },
   "additional-properties.json": {
     "preferred": "1.0.0",
     "versions": {
@@ -76,6 +68,30 @@
     "versions": {
       "1.0": {
         "swaggerUrl": "swagger-files/excerpt-markdown.json"
+      }
+    }
+  },
+  "file-upload-image.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/file-upload-image.json"
+      }
+    }
+  },
+  "file-upload-multipart.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/file-upload-multipart.json"
+      }
+    }
+  },
+  "file-upload-multiple.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/file-upload-multiple.json"
       }
     }
   },
