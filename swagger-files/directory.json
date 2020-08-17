@@ -71,6 +71,30 @@
       }
     }
   },
+  "file-upload-image.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/file-upload-image.json"
+      }
+    }
+  },
+  "file-upload-multipart.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/file-upload-multipart.json"
+      }
+    }
+  },
+  "file-upload-multiple.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/file-upload-multiple.json"
+      }
+    }
+  },
   "formdata.json": {
     "preferred": "0.0.0",
     "versions": {
