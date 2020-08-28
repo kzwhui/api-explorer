@@ -127,6 +127,14 @@
       }
     }
   },
+  "ocrolus.json": {
+    "preferred": "1",
+    "versions": {
+      "1": {
+        "swaggerUrl": "swagger-files/ocrolus.json"
+      }
+    }
+  },
   "parameters-with-refs.json": {
     "preferred": "1.0.0",
     "versions": {
