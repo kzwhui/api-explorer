@@ -79,6 +79,13 @@
   height: 34px;
   width: 100px;
 }
+.hub-reference .logs .logs-login .api-key-input {
+  display: flex;
+}
+.hub-reference .logs .logs-login .api-key-input input {
+  margin-right: 15px;
+}
+
 .hub-reference .logs .logs-list table td,
 .hub-reference .logs .logs-list table th {
   padding: 10px;

@@ -286,6 +286,7 @@ class Doc extends React.Component {
         group={this.props.group}
         groups={this.props.groups}
         loginUrl={this.props.loginUrl}
+        customLoginSetup={this.props.customLoginSetup}
         query={{
           url,
           method,
@@ -391,6 +392,7 @@ Doc.propTypes = {
   }),
   auth: PropTypes.shape({}).isRequired,
   baseUrl: PropTypes.string,
+  customLoginSetup: PropTypes.bool,
   doc: PropTypes.shape({
     api: PropTypes.shape({
       examples: PropTypes.shape({
@@ -450,6 +452,7 @@ Doc.defaultProps = {
     splitReferenceDocs: false,
   },
   baseUrl: '/',
+  customLoginSetup: false,
   flags: {
     correctnewlines: false,
   },

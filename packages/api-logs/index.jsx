@@ -72,6 +72,8 @@ class Logs extends React.Component {
     super(props);
     this.state = {
       loading: false,
+      apiKey: '',
+      groupOverride: '',
       logs: [],
     };
 
@@ -86,9 +88,9 @@ class Logs extends React.Component {
     this.getLogs();
   }
 
-  componentDidUpdate(prevProps) {
+  componentDidUpdate(prevProps, prevState) {
     // Refresh if the group has changed
-    if (this.props.group !== prevProps.group) {
+    if (this.props.group !== prevProps.group || this.state.groupOverride !== prevState.groupOverride) {
       // Setting logs to [] means we show the loading icon
       this.setState({ logs: [] });
       this.getLogs();
@@ -129,9 +131,11 @@ class Logs extends React.Component {
     const { query, baseUrl, group } = this.props;
     this.setState({ loading: true });
 
+    console.log(this.state);
+
     return `${baseUrl}/api/logs?${querystring.stringify({
       ...query,
-      id: group || null,
+      id: group || this.state.groupOverride || null,
       limit: 5,
       page: 0,
     })}`;
@@ -237,9 +241,15 @@ class Logs extends React.Component {
     );
   }
 
+  setGroup(e) {
+    e.preventDefault();
+    this.setState({ groupOverride: this.state.apiKey });
+  }
+
   render() {
-    const { query, baseUrl, group, loginUrl } = this.props;
-    if (!group)
+    const { query, baseUrl, group, loginUrl, customLoginSetup } = this.props;
+    const useGroup = group || this.state.groupOverride;
+    if (!useGroup && customLoginSetup) {
       return (
         <div className="logs">
           <div>
@@ -256,8 +266,29 @@ class Logs extends React.Component {
           </div>
         </div>
       );
+    } else if (!useGroup && !customLoginSetup) {
+      return (
+        <div className="logs">
+          <div>
+            <h3>Logs</h3>
+          </div>
+          <div>
+            <div className="logs-login">
+              <IconSvg />
+              <p>Enter your API Key to view API logs for this endpoint</p>
+              <div className="api-key-input">
+                <input type="text" value={this.state.apiKey} onChange={(e) => this.setState({ apiKey: e.target.value })}/>
+                <button className="logs-login-button" onClick={this.setGroup.bind(this)}>
+                  View Logs
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
 
-    const url = `${baseUrl}/logs?${querystring.stringify({ ...query, id: group })}`;
+    const url = `${baseUrl}/logs?${querystring.stringify({ ...query, id: useGroup })}`;
 
     return (
       <div className="logs">
@@ -281,6 +312,7 @@ class Logs extends React.Component {
 Logs.propTypes = {
   baseUrl: PropTypes.string.isRequired,
   changeGroup: PropTypes.func.isRequired,
+  customLoginSetup: PropTypes.bool,
   group: PropTypes.string,
   groups: PropTypes.arrayOf(
     PropTypes.shape({
@@ -294,6 +326,7 @@ Logs.propTypes = {
 };
 
 Logs.defaultProps = {
+  customLoginSetup: false,
   group: '',
   groups: [],
   loginUrl: 'https://dash.readme.com/login',
