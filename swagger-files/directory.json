@@ -1,4 +1,12 @@
 {
+  "__github.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/__github.json"
+      }
+    }
+  },
   "additional-properties.json": {
     "preferred": "1.0.0",
     "versions": {
@@ -124,14 +132,6 @@
     "versions": {
       "1.0.0": {
         "swaggerUrl": "swagger-files/multiple-securities.json"
-      }
-    }
-  },
-  "ocrolus.json": {
-    "preferred": "1",
-    "versions": {
-      "1": {
-        "swaggerUrl": "swagger-files/ocrolus.json"
       }
     }
   },
