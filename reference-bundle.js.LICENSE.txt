@@ -45,8 +45,6 @@ object-assign
  * Licensed under the MIT License.
  */
 
-/*! For license information please see index.js.LICENSE.txt */
-
 /*! https://mths.be/punycode v1.4.1 by @mathias */
 
 /**
