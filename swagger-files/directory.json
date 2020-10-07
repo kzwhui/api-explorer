@@ -71,6 +71,14 @@
       }
     }
   },
+  "extensions.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/extensions.json"
+      }
+    }
+  },
   "file-upload-image.json": {
     "preferred": "1.0.0",
     "versions": {
