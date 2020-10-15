@@ -44,7 +44,6 @@
       }
     },
     "/examples": {
-      "description": "Showcase of responses with an `examples` property present.",
       "get": {
         "responses": {
           "default": {
@@ -56,6 +55,13 @@
                     "value": {
                       "$ref": "#/components/schemas/UserResponse/example"
                     }
+                  }
+                }
+              },
+              "text/csv, text/comma-separated-values": {
+                "examples": {
+                  "display_view=app": {
+                    "value": "app1,app2,app3,app4,app5"
                   }
                 }
               }
