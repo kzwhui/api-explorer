@@ -1,4 +1,20 @@
 {
+  "__calamp_latest copy.json": {
+    "preferred": "v2.1;r4.10.0.5-SNAPSHOT",
+    "versions": {
+      "v2.1;r4.10.0.5-SNAPSHOT": {
+        "swaggerUrl": "swagger-files/__calamp_latest copy.json"
+      }
+    }
+  },
+  "__calamp_work.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/__calamp_work.json"
+      }
+    }
+  },
   "additional-properties.json": {
     "preferred": "1.0.0",
     "versions": {
