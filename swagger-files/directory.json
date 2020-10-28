@@ -1,4 +1,20 @@
 {
+  "__metronome.json": {
+    "preferred": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "swaggerUrl": "swagger-files/__metronome.json"
+      }
+    }
+  },
+  "__schemaexamples.json": {
+    "preferred": "v2.1;r4.10.0.5-SNAPSHOT",
+    "versions": {
+      "v2.1;r4.10.0.5-SNAPSHOT": {
+        "swaggerUrl": "swagger-files/__schemaexamples.json"
+      }
+    }
+  },
   "additional-properties.json": {
     "preferred": "1.0.0",
     "versions": {
