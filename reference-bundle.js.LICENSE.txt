@@ -95,20 +95,6 @@ object-assign
  * Extracted from https://github.com/node-fetch/node-fetch/blob/64c5c296a0250b852010746c76144cb9e14698d9/src/utils/form-data.js
  */
 
-/**
- * Portions of this file have been extracted and modified from Swagger UI.
- *
- * @license Apache 2.0
- * @link https://github.com/swagger-api/swagger-ui/blob/master/src/core/utils.js
- */
-
-/**
- * This file has been extracted and modified from Swagger UI.
- *
- * @license Apache 2.0
- * @link https://github.com/swagger-api/swagger-ui/blob/master/src/core/plugins/samples/fn.js
- */
-
 /** @license React v0.19.1
  * scheduler.production.min.js
  *
